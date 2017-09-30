@@ -1,0 +1,3 @@
+cmake .. /home/shane/OCV
+-D CMAKE_BUILD_TYPE=RELEASE 
+-DCMAKE_INSTALL_PREFIX=/usr/local..
