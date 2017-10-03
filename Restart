@@ -1,2 +1,11 @@
 sh ./nvidia.run --uninstall
 --no-opengl-files
+
+tar -xzvf opencv-3.3.0.tar.gz
+cd opencv-3.3.0/
+cd ..
+mkdir my_build_dir
+cd my_build_dir
+cmake ../opencv-3.3.0 -DWITH_GTK_2_X=ON -DCMAKE_INSTALL_PREFIX=/usr/local
+make    # make -j4表示开4个线程来进行编译
+make install
