@@ -1,0 +1,2 @@
+sh ./nvidia.run --uninstall
+--no-opengl-files
