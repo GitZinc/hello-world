@@ -11,7 +11,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D WITH_CUDA=ON \
     -D INSTALL_PYTHON_EXAMPLES=ON \
     -D INSTALL_C_EXAMPLES=OFF \
-    -D OPENCV_EXTRA_MODULES_PATH=/home/shane/opencv-3.3.0/opencv_contrib-master/modules  \
+    -D OPENCV_EXTRA_MODULES_PATH=/home/shane/opencv-3.3.0/opencv_contrib-3.3.0/modules  \
     -D PYTHON_EXECUTABLE=~/usr/bin/python \
     -D BUILD_EXAMPLES=ON ..
     
