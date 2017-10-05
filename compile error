@@ -1,0 +1,10 @@
+[ 72%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/sift.cpp.o
+/home/shane/opencv-3.3.0/opencv_contrib-master/modules/xfeatures2d/src/sift.cpp: In member function ‘virtual void cv::xfeatures2d::SIFT_Impl::detectAndCompute(cv::InputArray, cv::InputArray, std::vector<cv::KeyPoint>&, cv::OutputArray, bool)’:
+/home/shane/opencv-3.3.0/opencv_contrib-master/modules/xfeatures2d/src/sift.cpp:1156:26: error: ‘removeDuplicatedSorted’ is not a member of ‘cv::KeyPointsFilter’
+         KeyPointsFilter::removeDuplicatedSorted( keypoints );
+                          ^~~~~~~~~~~~~~~~~~~~~~
+modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/build.make:70: recipe for target 'modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/sift.cpp.o' failed
+make[2]: *** [modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/sift.cpp.o] Error 1
+CMakeFiles/Makefile2:17444: recipe for target 'modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/all' failed
+make[1]: *** [modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/all] Error 2
+Makefile:160: recipe for target 'all' failed
